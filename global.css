@@ -82,7 +82,6 @@ html {
   left: 50%;
   position: relative;
   transform: translate(-50%, -50%);
-  background-color: dodgerblue;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -168,14 +167,246 @@ html {
   border-top-right-radius: 15px;
 }
 
-.hero-wrapper h1{
+.hero-wrapper h1 {
   font-family: "Poppins", sans-serif;
   font-size: 190px;
   margin: 90px;
-  
+  font-weight: bolder;
 }
 
-.link-wrapper{
-  border: 3px solid red;
-  margin-top: 40px;
+.skill-info {
+  /* border: 3px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 410px;
+  background-color: #0F9D58;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.skill {
+  width: 160px;
+  height: 160px;
+  /* background: cornflowerblue; */
+  position: relative;
+}
+
+/* .outer {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  padding: 20px;
+  box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px 6px 10px -1px rgba(255,255,255,0.7);
+} */
+
+.inner {
+  /* height: 120px; */
+  /* width: 120px; */
+  /* border-radius: 50%; */
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(255,255,255,1),
+                0px 12px 10px -10px rgba(0,0,0,0.05); */
+}
+
+#number {
+  font-size: 70px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+}
+
+circle {
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim 4s linear forwards;
+}
+
+.ssvg {
+  /* border: 3px solid red; */
+  position: relative;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(34, 33, 33, 0.7),
+    -0.5px -0.5px 0px rgb(32, 32, 32), 0.5px 0.5px 0px rgb(36, 35, 35),
+    0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+
+@keyframes anim {
+  100% {
+    stroke-dashoffset: 60;
+  }
+}
+
+.detail-skill-wrapper {
+  margin-top: 60px;
+  background-color:#F4B400;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.skills-bar {
+  padding: 25px 30px;
+}
+
+.skills-bar .bar {
+  margin: 20px 0;
+}
+
+.skills-bar .bar:first-child {
+  margin-top: 0px;
+}
+
+.skills-bar .bar .info span h1 {
+  font-size: 17px;
+  font-weight: 500;
+  opacity: 0;
+  animation: showText 2.5s 1s linear forwards;
+}
+
+@keyframes showText {
+  100% {
+    opacity: 1;
+  }
+}
+
+.skills-bar .bar .progress-line {
+  position: relative;
+  height: 12px;
+  width: 100%;
+  background: #f0f0f0;
+  border-radius: 10px;
+  transform: scalex(0);
+  transform-origin: left;
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bar .progress-line span {
+  height: 100%;
+  width: 80%;
+  background: dodgerblue;
+  position: absolute;
+  border-radius: 10px;
+  transform: scalex(0);
+  transform-origin: left;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.bar .progress-line span::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: -10px;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+
+.bar .progress-line span::after {
+  position: absolute;
+  right: 0;
+  top: -34px;
+  color: whitesmoke;
+  background: #000;
+  font-weight: bolder;
+  padding: 1px 8px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+
+@keyframes showText2 {
+  100% {
+    opacity: 1;
+  }
+}
+
+.progress-line.python span::after {
+  content: "80%";
+}
+
+.progress-line.django span::after {
+  content: "80%";
+}
+
+.progress-line.angular span::after {
+  content: "86%";
+}
+
+.progress-line.flask span::after {
+  content: "78%";
+}
+
+.progress-line.javascript span::after {
+  content: "75%";
+}
+
+.progress-line.html span::after {
+  content: "98%";
+}
+
+.progress-line.postgress span::after {
+  content: "70%";
+}
+
+.progress-line.adapability span::after {
+  content: "98%";
+}
+
+.progress-line.python span {
+  width: 80%;
+}
+
+.progress-line.django span {
+  width: 80%;
+}
+
+.progress-line.angular span {
+  width: 86%;
+}
+
+.progress-line.flask span {
+  width: 78%;
+}
+
+.progress-line.javascript span {
+  width: 75%;
+}
+
+.progress-line.html span {
+  width: 98%;
+}
+
+.progress-line.postgress span {
+  width: 70%;
+}
+
+.progress-line.adapability span {
+  width: 98%;
 }
