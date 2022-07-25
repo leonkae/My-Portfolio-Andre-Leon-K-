@@ -416,7 +416,6 @@ circle {
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
   border-top-right-radius: 15px;
-
 }
 
 .img-card {
@@ -432,7 +431,7 @@ circle {
   margin: 20px;
 }
 
-.img-card img{
+.img-card img {
   border: 1px solid rgb(63, 63, 63);
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;
@@ -487,4 +486,108 @@ circle {
 
 .second {
   color: #db4437;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.email {
+  margin: 10px;
+  background-color: #4285f4;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.linkedin {
+  margin: 10px;
+  background-color: #db4437;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.twitter {
+  margin: 10px;
+  background-color: #f4b400;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.instagram {
+  margin: 10px;
+  background-color: #0f9d58;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.email a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 10px;
+}
+
+.linkedin a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 10px;
+}
+
+.twitter a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 10px;
+}
+
+.instagram a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 10px;
+}
+
+.reachout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.reachout ul li {
+  font-family: "Roboto", sans-serif;
+  font-size: x-large;
+  margin: 10px;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.footer h1{
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+}
+
+.footer h1 a{
+  text-decoration: none;
+  color:  #4285f4;
 }
