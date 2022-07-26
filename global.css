@@ -220,6 +220,10 @@ circle {
   stroke-dasharray: 472;
   stroke-dashoffset: 472;
   animation: anim 4s linear forwards;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(34, 33, 33, 0.7),
+    -0.5px -0.5px 0px rgb(32, 32, 32), 0.5px 0.5px 0px rgb(36, 35, 35),
+    0px 12px 10px -10px rgba(0, 0, 0, 0.05);
 }
 
 .ssvg {
@@ -366,6 +370,14 @@ circle {
   content: "98%";
 }
 
+.progress-line.linux span::after {
+  content: "87%";
+}
+
+.progress-line.git span::after {
+  content: "95%";
+}
+
 .progress-line.python span {
   width: 80%;
 }
@@ -396,6 +408,14 @@ circle {
 
 .progress-line.adapability span {
   width: 98%;
+}
+
+.progress-line.linux span {
+  width: 87%;
+}
+
+.progress-line.git span {
+  width: 95%;
 }
 
 .project-title {
@@ -576,7 +596,7 @@ circle {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 
 .reachout ul li {
