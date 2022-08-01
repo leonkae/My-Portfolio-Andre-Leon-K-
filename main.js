@@ -1,7 +1,7 @@
 let number = document.getElementById("number");
 let counter = 0;
 setInterval(() =>{
-    if(counter ==83){
+    if(counter ==84){
         clearInterval();
     }else{
         counter += 1;
