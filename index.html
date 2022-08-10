@@ -10,6 +10,11 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,12 +28,16 @@
     <!-- body -->
 
     <div class="overflow-hidden">
-      <nav class="navbar navbar-dark fixed-top navbar-expand-lg bg-light">
+      <nav class="navbar navbar-dark fixed-top navbar-expand-lg bg-primary">
         <div class="container-fluid">
           <div class="title">
             <a href="#">
               <h1 class="hvr-bounce-in">Leonkae</h1>
             </a>
+          </div>
+
+          <div class="hvr-bounce-in" id="theme" >
+            <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
           </div>
 
           <button
@@ -515,13 +524,15 @@
         </div>
 
         <div class="reachout" id="reachout">
-          <ul class="list-group list-group-flush lead">
+          <ul class="list-group-flush lead">
             <li class="list-group-item">
-              <span class="contact-info">Phone:</span> (+254-114-427-790)
+              <p>
+                <span class="contact-info">Email :</span> leon29kae@gmail.com
+              </p>
+              <span class="line2"></span>
             </li>
             <li class="list-group-item">
-              <span class="contact-info">Email:</span>
-              leon29kae@gmail.com
+              <p><span class="contact-info">Phone:</span> +254-114-427-790</p>
             </li>
           </ul>
         </div>
