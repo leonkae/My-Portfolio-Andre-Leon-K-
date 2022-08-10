@@ -135,8 +135,6 @@ html {
   transform: translate(0, -100%);
 }
 
-
-
 .about-paragraph p {
   font-family: "Roboto", sans-serif;
   font-size: x-large;
@@ -429,6 +427,11 @@ circle {
   font-family: "Roboto", sans-serif;
 }
 
+.project-title h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
 .projects {
   display: flex;
   align-items: center;
@@ -627,28 +630,33 @@ circle {
   color: #4285f4;
 }
 
-.me{
+.me {
   color: #db4437;
   font-weight: bolder;
 }
 
-.first-name{
+.first-name {
   color: #0f9d58;
   font-weight: bolder;
 }
 
-.second-name{
-  color: #4285f4;;
+.second-name {
+  color: #4285f4;
   font-weight: bolder;
 }
 
-.third-name{
+.third-name {
   color: #f4b400;
   font-weight: bolder;
 }
 
-.project-name{
+.project-name {
   color: #4285f4;
   font-weight: bolder;
   text-decoration: underline;
+}
+
+.name-link a{
+  margin-top: 10px;
+  font-weight: bolder;
 }
