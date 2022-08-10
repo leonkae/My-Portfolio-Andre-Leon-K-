@@ -646,3 +646,9 @@ circle {
   color: #f4b400;
   font-weight: bolder;
 }
+
+.project-name{
+  color: #4285f4;
+  font-weight: bolder;
+  text-decoration: underline;
+}
