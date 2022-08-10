@@ -473,8 +473,9 @@ circle {
   justify-content: center;
   text-decoration: none;
   margin: 20px;
-  color: #000;
   text-align: center;
+  /* font-weight: bolder; */
+  color: #0d6efd;
 }
 
 .line {
