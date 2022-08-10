@@ -135,6 +135,8 @@ html {
   transform: translate(0, -100%);
 }
 
+
+
 .about-paragraph p {
   font-family: "Roboto", sans-serif;
   font-size: x-large;
@@ -623,4 +625,24 @@ circle {
 .footer h1 a {
   text-decoration: none;
   color: #4285f4;
+}
+
+.me{
+  color: #db4437;
+  font-weight: bolder;
+}
+
+.first-name{
+  color: #0f9d58;
+  font-weight: bolder;
+}
+
+.second-name{
+  color: #4285f4;;
+  font-weight: bolder;
+}
+
+.third-name{
+  color: #f4b400;
+  font-weight: bolder;
 }
