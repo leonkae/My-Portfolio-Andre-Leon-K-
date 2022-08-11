@@ -140,7 +140,7 @@ body {
 
 .about-paragraph p {
   font-family: "Roboto", sans-serif;
-  font-size: x-large;
+  font-size: 2.3vh;
 }
 
 .portfolio-image {
@@ -438,6 +438,7 @@ circle {
 .project-title h3 {
   text-align: center;
   font-family: "Roboto", sans-serif;
+  font-size: 2.3vh;
 }
 
 .projects {
