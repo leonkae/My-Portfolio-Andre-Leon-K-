@@ -196,30 +196,42 @@ body {
   position: relative;
 }
 
-.skill-info h1 {
+/* .skill-info h1 {
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
   color: black;
-}
+} */
 
 .inner {
-  margin-top: 30px;
+  /* border: solid red; */
+  margin-top: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#number {
-  font-size: 70px;
+#number  {
+  font-size: 40px;
   font-weight: bolder;
   color: rgb(255, 255, 255);
   font-family: "Roboto", sans-serif;
+  margin: 10px;
+}
+
+.avg-title h1{
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 4px;
+  font-weight: bold;
 }
 
 circle {
+  /* border:3px solid red; */
+  margin: 10px;
   fill: none;
   stroke: url(#GradientColor);
-  stroke-width: 20px;
+  stroke-width: 22px;
   stroke-dasharray: 472;
   stroke-dashoffset: 472;
   animation: anim 4s linear forwards;
