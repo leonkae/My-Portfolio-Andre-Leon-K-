@@ -1,9 +1,28 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
   color: black;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000000c7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0d6efd;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f4b400;
+}
+
 /* Bounce In */
 .hvr-bounce-in {
   display: inline-block;
@@ -210,7 +229,7 @@ body {
   justify-content: center;
 }
 
-#number  {
+#number {
   font-size: 40px;
   font-weight: bolder;
   color: rgb(255, 255, 255);
@@ -218,7 +237,7 @@ body {
   margin: 10px;
 }
 
-.avg-title h1{
+.avg-title h1 {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   text-align: center;
@@ -438,16 +457,18 @@ circle {
 }
 
 .project-title h1 {
-  text-align: center;
+  text-align: justify;
   font-family: "Roboto", sans-serif;
 }
 
 .project-title h2 {
+  color: white;
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
 
 .project-title h3 {
+  color: white;
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 2.3vh;
@@ -656,6 +677,7 @@ circle {
 .footer h1 {
   font-family: "Roboto", sans-serif;
   font-size: large;
+  color: white;
 }
 
 .footer h1 a {
@@ -723,3 +745,30 @@ circle {
   cursor: pointer;
   margin: 10px;
 }
+
+.new-cont {
+  border: 3px solid rgb(22, 22, 22);
+  background-color: rgb(22, 22, 22);
+  background-image: url(images/ring-dark.svg);
+}
+
+/* preloader css  */
+
+/* .preload{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0d6efd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 115.5s ease; 
+}
+
+
+
+.preload-finish{
+  opacity: 0;
+  pointer-events: none;
+} */
