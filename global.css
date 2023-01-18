@@ -463,7 +463,7 @@ circle {
 }
 
 .project-title h2 {
-  color: white;
+  /* color: white; */
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
