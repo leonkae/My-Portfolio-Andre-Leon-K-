@@ -10,10 +10,6 @@ setInterval(() =>{
 
 }, 48);
 
-// function myFunction(){
-//     var element = document.body;
-//     element.classList.toggle("dark-mode")
-// }
 
 
 const toggle = document.getElementById('toggleDark');
@@ -32,8 +28,3 @@ toggle.addEventListener('click', function(){
     }
 
 })
-
-// window.addEventListener('load', () => {
-//     const preload =  document.querySelector('.preload')
-//     preload.classList.add('preload-finish')
-// })
