@@ -514,7 +514,6 @@ circle {
   text-decoration: none;
   margin: 20px;
   text-align: center;
-  /* font-weight: bolder; */
   color: #0d6efd;
 }
 
@@ -662,7 +661,6 @@ circle {
   background: none;
   font-family: "Roboto", sans-serif;
   font-size: x-large;
-  /* margin: 10px; */
   text-align: center;
 }
 
@@ -752,24 +750,3 @@ circle {
   background-color: rgb(22, 22, 22);
   background-image: url(images/ring-dark.svg);
 }
-
-/* preloader css  */
-
-/* .preload{
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  background: #0d6efd;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: opacity 115.5s ease; 
-}
-
-
-
-.preload-finish{
-  opacity: 0;
-  pointer-events: none;
-} */
